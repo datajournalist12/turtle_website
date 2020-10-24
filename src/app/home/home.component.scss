@@ -6,14 +6,28 @@
   height: 100vh;
 }
 
-.container {
-  // width: 80vw;
+@media only screen and (max-width: 1367px) {
+  .container {
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  padding: 2vh;
+  transform: translate(0, 25vh);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  .container {
+  width: 80vw;
   text-align: center;
   margin: auto;
   padding: 10vh;
-  transform: translate(0, 30vh);
+  transform: translate(0, 35vh);
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 15px;
+  }
 }
 
 .title {
